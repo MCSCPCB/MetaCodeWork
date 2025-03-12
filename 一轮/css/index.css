@@ -1,0 +1,36 @@
+header {
+     background-color: rgb(255, 255, 255);
+     height: 80px;
+     width: 100%;
+}
+h1 {
+     color: white;
+     position: absolute;
+     left: 20px;
+     top: 0;
+     line-height: 80px;
+     background-image: url(../images/logo.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     text-indent: -9999px;
+
+     width: 1070px;
+}
+header ul {
+     position: absolute;
+     right: 5vw;
+     top: 0;
+     line-height: 80px;
+}
+header li {
+     display: inline;
+     margin-right: 4vw;
+}
+
+nav a {
+     color: #272636;
+     text-decoration: none;
+}
+nav a:hover {
+     text-decoration: underline;
+}
