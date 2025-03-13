@@ -1,0 +1,91 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+/*导航栏背景*/
+nav {
+     background-image: url(../images/nav_bg.png);
+     width: 1570px;
+     height: 107px;
+}
+
+.nav-container {
+     flex: 1;
+     display: flex;
+     justify-content: center;
+     gap: 0px;
+     margin: 0, 247.5px;
+}
+
+.nav-wrapper {
+     flex: 1;
+     display: flex;
+     justify-content: center;
+     gap: 0px;
+     margin: 0, 247.5px;
+}
+
+.logo img {
+     width: 211px;
+     height: 61px;
+     position: relative;
+     /*
+     top: 19.5%;
+     right: 17.0%;
+*/
+}
+
+/*链接图标*/
+.link {
+     width: 198px;
+     height: 98px;
+     position: relative;
+     margin: 0px;
+}
+
+/*链接图标图标悬停切换*/
+#index_hover {
+     width: 100%;
+     height: 100%;
+     background-image: url(../images/index.png);
+     transition: 0s;
+}
+
+#index_hover:hover {
+     background-image: url(../images/index_hover.png);
+}
+
+#introduction_hover {
+     width: 100%;
+     height: 100%;
+     background-image: url(../images/introduction.png);
+     transition: 0s;
+}
+
+#introduction_hover:hover {
+     background-image: url(../images/introduction_hover.png);
+}
+
+#games_hover {
+     width: 100%;
+     height: 100%;
+     background-image: url(../images/games.png);
+     transition: 0s;
+}
+
+#games_hover:hover {
+     background-image: url(../images/games_hover.png);
+}
+
+#join_hover {
+     width: 100%;
+     height: 100%;
+     background-image: url(../images/join.png);
+     transition: 0s;
+}
+
+#join_hover:hover {
+     background-image: url(../images/join_hover.png);
+}
