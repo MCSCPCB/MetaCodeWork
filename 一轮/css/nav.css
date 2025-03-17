@@ -31,10 +31,9 @@ nav {
      width: 211px;
      height: 61px;
      position: relative;
-     /*
+
      top: 19.5%;
-     right: 17.0%;
-*/
+     right: 17%;
 }
 
 /*链接图标*/
@@ -87,5 +86,22 @@ nav {
 }
 
 #join_hover:hover {
+     background-image: url(../images/join_hover.png);
+}
+
+/*链接图标常亮*/
+#index.active #index_hover {
+     background-image: url(../images/index_hover.png);
+}
+
+#introduction.active #introduction_hover {
+     background-image: url(../images/introduction_hover.png);
+}
+
+#games.active #games_hover {
+     background-image: url(../images/games_hover.png);
+}
+
+#join.active #join_hover {
      background-image: url(../images/join_hover.png);
 }
