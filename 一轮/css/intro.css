@@ -4,9 +4,82 @@
      box-sizing: border-box;
 }
 
-/*首页轮播图*/
+/* 图片介绍 */
 .intro-main-image img {
      width: 1570px;
      height: 572px;
      display: block;
+}
+
+/* 发展历程 */
+.intro-timeline {
+     position: relative;
+     width: 1570px;
+     height: 450px;
+     margin: 0 0;
+}
+
+/* 发展历程背景 */
+.intro-timeline-bg img {
+     width: 1570px;
+     height: 450px;
+     display: block;
+}
+
+/* 发展历程时间轴 */
+.intro-timeline-image {
+     width: 1060px;
+     height: 141px;
+     overflow: hidden;
+     position: absolute;
+     left: 50%;
+     top: 35%;
+     transform: translate(-50%, -50%);/* 平移 */
+}
+
+.intro-timeline-image img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     object-position: center center;
+     display: block;
+}
+
+/* 发展历程文字 */
+.intro-timeline-text {
+     position: relative;
+     bottom: 80px;
+     text-align: center;
+     color: #000000;
+     font-size: 14px;
+}
+
+.dash {
+     margin: 0 16px;
+}
+
+strong {
+     font-weight: bold;
+     letter-spacing: 3px;
+}
+
+.text {
+     letter-spacing: 1px;
+}
+
+/* 公司环境背景 */
+.intro-content-image {
+     width: 1570px;
+     height: 1034px;
+     display: block;
+     /* 隐藏超出部分 */
+     overflow: hidden;
+}
+
+.intro-content-image img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     /* 控制图片裁剪位置（裁剪右部分） */
+     object-position: left center;
 }
