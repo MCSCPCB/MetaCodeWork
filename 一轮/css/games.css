@@ -1,0 +1,12 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+/*首页轮播图*/
+.games-main-image img {
+     width: 1570px;
+     height: 572px;
+     display: block;
+}

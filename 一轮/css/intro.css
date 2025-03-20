@@ -34,7 +34,7 @@
      position: absolute;
      left: 50%;
      top: 35%;
-     transform: translate(-50%, -50%);/* 平移 */
+     transform: translate(-50%, -50%); /* 平移 */
 }
 
 .intro-timeline-image img {
@@ -72,6 +72,7 @@ strong {
      width: 1570px;
      height: 1034px;
      display: block;
+     position: relative;
      /* 隐藏超出部分 */
      overflow: hidden;
 }
@@ -82,4 +83,73 @@ strong {
      object-fit: cover;
      /* 控制图片裁剪位置（裁剪右部分） */
      object-position: left center;
+}
+
+/* 区域展示画廊 */
+.environment-gallery {
+     width: 1110px;
+     height: 620px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: flex;
+     flex-wrap: wrap; /* 允许换行 */
+}
+
+.environment-gallery img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     object-position: center center;
+}
+
+/* 第一行图片 */
+#area1 {
+     width: 825px;
+     height: 300px;
+     margin: 0 15px 15px 0;
+     position: relative;
+}
+
+#area2 {
+     width: 255px;
+     height: 300px;
+     margin: 0 0 15px 15px;
+     position: relative;
+}
+
+/* 第二行图片 */
+#area3 {
+     width: 255px;
+     height: 300px;
+     margin: 0 15px 0 0;
+     position: relative;
+}
+
+#area4 {
+     width: 445px;
+     height: 300px;
+     margin: 0 15px 0 15px;
+     position: relative;
+}
+
+#area5 {
+     width: 350px;
+     height: 300px;
+     margin: 0 0 0 15px;
+     position: relative;
+}
+
+/* 区域标题 */
+.item-text {
+     position: absolute;
+     bottom: 5px;
+     left: 50%;
+     transform: translateX(-50%);
+     padding: 0px 10px;
+     background: #333333;
+     color: #ffffff;
+     font-size: 18px;
+     white-space: nowrap;
 }
